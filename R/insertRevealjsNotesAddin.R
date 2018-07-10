@@ -7,7 +7,7 @@
 insertRevealjsNotesAddin <- function() {
   wrap_rstudio_text(
     '\n\n<aside class="notes">\n',
-    '\n</aside>\n\n',
+    '\n</aside>\n',
     insert_if_blank_selection = ''
   )
 }
