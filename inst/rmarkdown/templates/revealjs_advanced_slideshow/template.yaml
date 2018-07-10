@@ -1,0 +1,3 @@
+name: Reveal.js Additions Slideshow
+description: A reveal.js slideshow that features additional CSS and advanced features. Works with the Addins buttons provided in RStudio by the `revealjs.additions` package.
+create_dir: true

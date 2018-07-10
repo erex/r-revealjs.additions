@@ -1,0 +1,19 @@
+Package: revealjs.additions
+Type: Package
+Title: Provides RStudio AddIns and additional template functionality for Reveal.js presentations
+Version: 0.1.0
+Author: Jacob Levernier
+Maintainer: Jacob Levernier <j@adunumdatum.org>
+Description: Provides RStudio AddIns and additional template functionality for Reveal.js presentations.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    glue,
+    magrittr,
+    revealjs,
+    rmarkdown,
+    rstudioapi,
+    stringr
+Suggests: remedy
+Remotes: github::ThinkR-open/remedy

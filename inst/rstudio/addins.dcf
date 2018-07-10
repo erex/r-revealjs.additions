@@ -1,0 +1,34 @@
+Name: Insert reveal.js notes
+Description: Inserts `<aside class="notes">` at the cursor position.
+Binding: insertRevealjsNotesAddin
+Interactive: false
+
+Name: Insert reveal.js slide transition
+Description: Inserts ` {data-transition="[default|none|fade|slide|convex|concave|zoom]"}` at the cursor position.
+Binding: insertRevealjsSlideTransition
+Interactive: false
+
+Name: Insert reveal.js slide background
+Description: Inserts ` {data-background="path/to/some/image.png"}` at the cursor position.
+Binding: insertRevealjsSlideBackground
+Interactive: false
+
+Name: Insert reveal.js fragment
+Description: Inserts `<span class="fragment"></span>` at the cursor position.
+Binding: insertRevealjsFragment
+Interactive: false
+
+Name: Insert reveal.js fragment with highlight
+Description: Inserts `<span class="fragment highlight-[red|blue|green]"></span>` at the cursor position.
+Binding: insertRevealjsFragmentWithHighlight
+Interactive: false
+
+Name: Insert reveal.js fragment index
+Description: Inserts ` data-fragment-index="1"` at the cursor position. To be used inside of a reveal.js fragment, like this: `<span class="fragment" data-fragment-index="1"></span>`
+Binding: insertRevealjsFragmentIndex
+Interactive: false
+
+Name: Give reveal.js title a white background
+Description: Inserts ` {.box-background}` at the cursor position. To be used with a `revealjs.additions` template presentation.
+Binding: insertRevealjsTitleWhiteBackground
+Interactive: false

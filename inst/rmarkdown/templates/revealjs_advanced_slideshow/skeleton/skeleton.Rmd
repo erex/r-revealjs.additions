@@ -1,0 +1,74 @@
+---
+title: "Talk Title"
+author: "Author's Name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"  ## This outputs the current date
+output:
+  revealjs::revealjs_presentation:
+    css: revealjs_extra.css
+    slide_level: 2
+    incremental: false
+    self_contained: false
+    ## "Theme" below can be one of the following: 
+    ## simple, sky, beige, serif, solarized, blood, moon, night, black, league,
+    ## or white. (These themes come from revealjs::revealjs_presentation)
+    theme: sky
+    highlight: tango
+    ## "Transition" below can be one of the following:
+    ## default, none, fade, slide, convex, concave, or zoom
+    transition: fade
+    background_transition: fade
+    reveal_options:
+      showNotes: true
+      controls: false
+      slideNumber: true
+      progress: true
+      history: true
+      center: true
+      previewLinks: false
+    reveal_plugins: ["notes"]
+---
+
+# First overall slide topic
+
+## Subslide 1
+
+>- This is an incremental bullet point. It has a `>-` in front of it, instead of just `-`.
+>- This is another incremental bullet point.
+>     - This is an incremental sub-bullet point. It has four spaces in front of it.
+>- This bullet point has part that will be hidden at first: <span class="fragment">This part will only show up after another click. <span class="fragment highlight-red">This part will highlight red after yet another click.</span> **You can insert these easily by clicking Addins --> REVEALJS_ADDINS --> "Insert reveal.js fragment" / "Insert reveal.js fragment with highlighting" above.**</span>
+
+<aside class="notes">
+- These are notes that will appear when you press the `s` key on your keyboard while looking at the presentation in a web browser.
+- Here is another bullet point in the speaker notes.
+</aside>
+
+## Subslide 2
+
+>- This bullet point has a second line.  
+   The line above it ends with two spaces, which tells the system that the line isn't done yet.
+
+# Slide background examples (Browser only)
+
+## {data-background="https://images.pexels.com/photos/1161161/pexels-photo-1161161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
+
+## <span class="box-background">A slide with a title</span> {data-background='https://images.pexels.com/photos/1161164/pexels-photo-1161164.jpeg?cs=srgb&dl=blurred-background-close-up-fence-1161164.jpg&fm=jpg'}
+
+# Slide code example
+
+## A slide with displayed code
+
+This is a slide with highlighted code, that's not run:
+
+```r
+x <- 1
+y <- 3
+x + y
+```
+
+## Another slide with evaluated code
+
+This slide has code **that gets run.**
+
+```{r echo=FALSE}
+plot(1:10)
+```
