@@ -47,6 +47,13 @@ output:
 >- This bullet point has a second line.  
    The line above it ends with two spaces, which tells the system that the line isn't done yet.
 
+## Subslide 3
+
+>- Press 'b' to make the screen black
+>- Press 'o' to get a slide overview, which you can use the arrow keys to move around.
+>- Press 's' to get a popup window with a presenter view.
+>- If you are using RStudio with the `revealjs.additions` add-on, try clicking "Addins" and then scrolling down to `REVEALJS.ADDITIONS`.
+
 # Slide background examples (Browser only)
 
 ## {data-background="https://images.pexels.com/photos/1161161/pexels-photo-1161161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
@@ -65,7 +72,7 @@ y <- 3
 x + y
 ```
 
-## Another slide with evaluated code
+## A slide with evaluated code
 
 This slide has code **that gets run.**
 
