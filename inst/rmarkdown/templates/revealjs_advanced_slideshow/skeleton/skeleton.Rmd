@@ -60,6 +60,10 @@ output:
 
 ## <span class="box-background">A slide with a title</span> {data-background='https://images.pexels.com/photos/1161164/pexels-photo-1161164.jpeg?cs=srgb&dl=blurred-background-close-up-fence-1161164.jpg&fm=jpg'}
 
+## <span class="highlight-green fragment" data-fragment-index="2">A slide with displayed code</span> {data-transition="zoom" data-background="teal"}
+
+This slide has a colorful background, as well as different transitions. It also has <span data-fragment-index="1" class="highlight-green fragment">out-of-order highlighting.</span>
+
 # Slide code example
 
 ## A slide with displayed code
