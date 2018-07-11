@@ -1,6 +1,8 @@
 # Facilitate creating [Reveal.js](http://lab.hakim.se/reveal-js/#/) presentations with RMarkdown
 
-This package takes the [`revealjs`](https://github.com/rstudio/revealjs) R package, which can be used [for creating slideshows](https://bookdown.org/yihui/rmarkdown/revealjs.html) with [RMarkdown](https://rmarkdown.rstudio.com/lesson-15.html), and adds extra functionality.
+This package takes the [`revealjs`](https://github.com/rstudio/revealjs) R package, which can be used [for creating slideshows](https://bookdown.org/yihui/rmarkdown/revealjs.html) with [RMarkdown](https://rmarkdown.rstudio.com/lesson-15.html), and adds extra functionality and facilitation, including an RMarkdown template with advanced features. 
+
+To see an example of the rendered template, [click here](https://publicus.github.io/r-revealjs.additions/). Use the spacebar on your keyboard to advance through the slides.
 
 ## Installation
 
@@ -92,6 +94,8 @@ Finally, you can highlight the text of a slide title, and click on the "White ba
 ```
 
 ### Render the presentation
+
+To see an example of the rendered template, [click here](https://publicus.github.io/r-revealjs.additions/). Use the spacebar on your keyboard to advance through the slides. 
 
 To see your presentation, click `Knit` at the top of the RStudio window. An HTML file and `your_presentation_name_files` folder will be generated alongside the presentation document on your computer. You can open that HTML file in any web browser (preferably [Google Chrome](https://www.google.com/chrome/)).
 
